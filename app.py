@@ -169,7 +169,7 @@ if page == "Home":
 if page == "Skin Analysis":
     st.header("AI-Powered Skin and Makeup Recommendation")
 
-    genai.configure(api_key='AIzaSyANW5QN9OKDVfZxtNcERWjOfX11zonE-dc')
+    genai.configure(api_key='AIzaSyBwJNX-khO8qZg-UvNtz6JPOyTkBJUUlWI')
 
     ## Prompt Engineering for Skin & Makeup Recommendations
     def generate_skin_analysis_prompt(input, image):
